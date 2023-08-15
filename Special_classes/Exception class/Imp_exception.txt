@@ -1,0 +1,5 @@
+The most important ones are:
+
+* IllegalArgumentException - used when an argument has an incorrect value. For example, when you expect your argument value to be bigger than 0, and it is not. 
+
+* IllegalStateException - used when the state of our system is incorrect. That means the values of properties have values that are not accepted by our function call. 

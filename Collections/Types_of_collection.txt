@@ -1,0 +1,18 @@
+Types of collections 
+
+1) List -> * Represents an ordered list of elements
+	     * You can use same values multiple times
+	     * Order of elements is preserved
+
+2) Set -> * Represents an unordered list of elements without duplicates
+	    * You can find elements faster 
+
+3) Map -> * A collection of key-value pairs
+	    * Keys are unique with exactly one value (values can be duplicates)
+	    * Useful for storing logical connections between objects (for ex. an employee id and their position)
+
+
+Collections in kotlin are read only by default. However you can always make a copy with fewer or additional elements
+
+
+* mutableList -> Object which can change internally (without the need of copying it)

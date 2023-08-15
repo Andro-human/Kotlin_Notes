@@ -1,0 +1,20 @@
+Abstract classes can be thought of as a hybrid of an open class and an interface.
+(It uses inheritance)
+
+There are two main consequences of making a class abstract:
+
+1. Abstract classes can have abstract methods or properties. Such elements are marked with an abstract modifier, and they do not have a body. They are just definitions, similar to those in interfaces that need to be overridden in subclasses.
+
+2. You cannot create objects. However, you can inherit subclasses from them.
+
+NOTE 1: You can use abstract classes as a replacement for interfaces, but this is considered a bad practice. Wherever possible, the preference is to use interfaces.
+
+NOTE 2: A class can only inherit from a single class but implement many interfaces.
+
+The key advantage of abstract classes is that they can have non-open methods (on interfaces, all elements are open) and non-abstract properties. 
+
+
+	Interface					                Abstract class 		
+* All methods are open			        * Methods can be open or non open
+* A class can implement(or inherit)	    * A class can inherit from one class
+one or more interface
